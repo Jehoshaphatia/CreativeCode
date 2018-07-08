@@ -3,9 +3,12 @@ function setup() {
 }
 
 function draw() {
-    if (mouseIsPressed) {
+  if (mouseIsPressed) 
+  {
     fill(122);
-  } else {
+  } 
+  else 
+  {
     fill(255);
   }
   ellipse(mouseX, mouseY, 80, 80);
